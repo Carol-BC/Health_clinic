@@ -3,7 +3,7 @@ First Power BI project
 
 This project was created under specific parameters for the Data Analytics and Lean Six Sigma course, as part of my MBA in Process Management.
 
-First, I needed to separate the datasheet, and I chose the **star schema** to do so. Once I had all the main areas subdivided I went on to create the **dCalendar table**: In here, I chose to utilize the DAX calculation and, instead of CALENDAR AUTO(), went with "CALENDAR(<start_date>, <end_date>)" to have my table reflect the exact dates from the data sheet. Once they were all generated, I continue to the subdivision by weeks, months and by year to have it all easily accessible, as one of the requirements was a subdivision to understand the peak service hours during the weekdays.
+First, I needed to separate the datasheet, and I chose the **star schema** to do so. Once I had all the main areas subdivided I went on to create the **dCalendar table**: In here, I chose to utilize the DAX calculation and went with "CALENDAR(<start_date>, <end_date>)" to have my table reflect the exact dates from the data sheet. Once they were all generated, I continue to the subdivision by weeks, months and by year to have it all easily accessible, as one of the requirements was a subdivision to understand the peak service hours during the weekdays.
 
 **1. Measures:**
 
