@@ -5,16 +5,16 @@ This project was created under specific parameters for the Data Analytics and Le
 
 First, I needed to separate the datasheet, and I chose the **star schema** to do so. Once I had all the main areas subdivided I went on to create the **dCalendar table**: In here, I chose to utilize the DAX calculation and, instead of CALENDAR AUTO(), went with "CALENDAR(<start_date>, <end_date>)" to have my table reflect the exact dates from the data sheet. Once they were all generated, I continue to the subdivision by weeks, months and by year to have it all easily accessible, as one of the requirements was a subdivision to understand the peak service hours during the weekdays.
 
-**-> Measures:**
+**1. Measures:**
 
 I created a few **measures** such as Year To Date Revenue (YTD), Client Returns to calculate churn and total quantities for clients and consults.
 
-**-> Filters:**
+**2. Filters:**
 
 As requested by the customer, I added 2 data segmentation options: By year and trimester; and by doctor
 I created two extra **filters** using buttons and the selection field, creating specific indicators. This will ensure the stakeholders may have full focus in each part of the report: Revenue and Customer Success.
 
-**-> Charts:**
+**3. Charts:**
 
 As per specifications to showcase the total average for customer satisfaction, I decided to go with a **gouge chart** to demonstrate this information clearly, this will be shown through all the pages and views.
 
